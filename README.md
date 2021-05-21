@@ -1,0 +1,2 @@
+# IJ-Colour_Correct
+ImageJ plugin to "correct" the colours of an image by first subtracting the mean RGB values of a number of selected points considered to be 'black' and then subtracts the background by performing the ratio of the image and the mean RGB values of a number of points considered to be 'white' minus the 'black'. It does not correct for uneven illumination. See: https://blog.bham.ac.uk/intellimic/g-landini-software/
